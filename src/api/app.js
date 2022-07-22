@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const rescue = require('express-rescue');
 const UserController = require('../controllers/user');
